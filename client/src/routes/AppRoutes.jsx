@@ -11,21 +11,13 @@ import NotFound from "../pages/NotFound";
 function AppRoutes() {
   return (
     <Routes>
-
       <Route path="/" element={<Login />} />
-
       <Route path="/signup" element={<Signup />} />
-
       <Route path="/dashboard" element={<Dashboard />} />
-
       <Route path="/income" element={<Income />} />
-
       <Route path="/expenses" element={<Expenses />} />
-
       <Route path="/profile" element={<Profile />} />
-
       <Route path="*" element={<NotFound />} />
-
     </Routes>
   );
 }
